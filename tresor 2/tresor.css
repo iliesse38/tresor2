@@ -1,0 +1,154 @@
+
+body{
+	background-image:url(fond1.png);
+	background-size: 100%;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	
+}
+
+.turing{
+	background: gray;	
+	background-image:url(turing.png);
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+/* couleur des cellules*/
+.bad {
+    background: red;
+}
+.good {
+	background: gray;	
+	background-image:url(tresor1.png);
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+.ligne{
+	background: yellow
+}
+.colonne{
+	background:orange;
+}
+/* format tableau */
+#fondtable {
+	background: url(carte.jpg);
+	border-width: 5px;
+	border-color: black;
+	border-style: solid;
+	border-collapse: collapse;
+	background-size: 100%
+	
+}
+/* Largeur et hauteur des cases de la grille */
+td {
+	width:60px;
+	height:60px;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+}
+.lite{
+	border-color: white;
+	border-style:solid;
+	display:inline-block;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	background-color:gray;
+	text-align: justify;
+	overflow: auto;
+    border-radius: 20px;
+	opacity: 80%;
+	color:white;
+}
+/* Gestion des blocs de classe "cadre" */
+.cadre {
+	display: inline-block;
+	width: 450px;
+	font-size: 18px;
+	padding-left: 200px;
+}
+
+h1 {
+    background-color:gray;
+	width:200px;
+	border-radius:20px;
+	color:white;
+	border-color:white;
+	border:solid;
+}
+
+#head {
+	display: inline-block;
+}
+
+#emplacementCommentaires {
+	overflow: auto;
+	width: 300px;
+    height: 500px;
+	background-color:gray;
+	float:right;
+	opacity: 85%;
+	border-radius: 50px;
+}
+
+.hack td {
+    border-radius: 5px;
+    border-color: white;
+    width: 35px;
+    height: 35px;
+}
+.Inshtein{
+	background-image: url(Inshtein.png);
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.koro{
+	background-image: url(koro.png);
+	background-size: 100%;
+	background-position: center;
+	
+}
+.explosif{
+	background-image:url(bombe.png);
+	background-size: 100%;
+}
+
+#emplacementCommentaires {
+    background: white;
+    opacity: 80%;
+    overflow: auto;
+    border-radius: 20px;
+    width: 350px;
+    height: 500px;
+    float: right;
+    text-align: justify;
+}
+#emplacementCommentaires p {
+	
+	color:green;
+}
+
+.coco{
+	color:green;
+	
+	
+}
+.bonton
+{
+	width: 120px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 20px;
+	float:right;
+	margin-left:1200px;
+}
+.hitler{
+	background-image: url(hitler.png);
+	background-size: 100%;
+	background-position: center;
+	
+}
